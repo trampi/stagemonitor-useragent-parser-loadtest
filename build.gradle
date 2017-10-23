@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+dependencies {
+	compile 'net.sf.uadetector:uadetector-resources:2014.10'
+	compile "io.opentracing:opentracing-api:0.22.0"
+
+	testCompile "junit:junit:4.12"
+	testCompile "io.opentracing:opentracing-mock:0.22.0"
+}
+
+repositories {
+	mavenCentral()
+	jcenter()
+}
